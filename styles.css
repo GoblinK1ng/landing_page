@@ -6,9 +6,14 @@ body{
     font-family: monospace;
 }
 
-.header{
+.header, .introduction{
     display: flex;
+    
+}
+/*Header Stuff*/
+.header{
     align-items: center;
+    justify-content: center;
     background-color: #1F2937;
     color: white;
     padding: 0 8px;
@@ -28,4 +33,24 @@ ul{
     list-style: none;
     padding: 0px;
     gap: 8px;
+}
+
+
+/*Hero Section*/
+.introduction{
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAf8;
+}
+
+.introduction p{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
 }
