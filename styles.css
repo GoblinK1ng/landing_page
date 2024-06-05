@@ -9,7 +9,6 @@ body{
 
 .header, .introduction{
     display: flex;
-    
 }
 /*Header Stuff*/
 .header{
@@ -62,5 +61,7 @@ button{
     background-color: #3882F6;
     border-radius: 4px;
     border: 0px;
-    padding: 4px 12px;
+    padding: 6px 24px;
+    color: white;
+    font-weight: bold;
 }
