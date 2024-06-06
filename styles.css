@@ -7,8 +7,9 @@ body{
     align-items: stretch;
 }
 
-.header, .introduction, .info{
+.header, .introduction, .info, .testimonial{
     display: flex;
+    padding-bottom: 50px;
 }
 
 /*Header Stuff*/
@@ -45,7 +46,6 @@ a{
     flex-direction: column;
     align-items: center;
     background-color: #1F2937;
-    padding-bottom: 60px;
 }
 
 h2{
@@ -91,8 +91,23 @@ h2{
     margin-bottom: 6px;
 }
 
+/*Testimonials*/
+.testimonial{
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
 
-
+.testimonial p{
+    width: 600px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.testimonial div{
+    padding-left: 200px;
+}
 
 
 /*Misc*/
