@@ -7,9 +7,10 @@ body{
     align-items: stretch;
 }
 
-.header, .introduction{
+.header, .introduction, .info{
     display: flex;
 }
+
 /*Header Stuff*/
 .header{
     align-items: center;
@@ -40,6 +41,7 @@ ul{
     flex-direction: column;
     align-items: center;
     background-color: #1F2937;
+    padding-bottom: 60px;
 }
 
 h2{
@@ -52,6 +54,37 @@ h2{
     font-size: 18px;
     color: #E5E7EB;
     width: 500px;
+}
+
+
+/*Info Section*/
+.info{
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 1000;
+}
+
+.cards{
+    display:flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: small;
+    font-weight: 100;
+}
+
+.item{
+    width: 150px;
+    text-align: center;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    margin-bottom: 6px;
 }
 
 
