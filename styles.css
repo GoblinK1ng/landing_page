@@ -16,7 +16,6 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
-    color: white;
     padding: 0px 100px;
     justify-content: center;
     min-width: 500px;
@@ -33,6 +32,11 @@ ul{
     list-style: none;
     padding: 0px;
     gap: 8px;
+}
+
+a{
+    color: #F9FAF8;
+    text-decoration: none;
 }
 
 
@@ -90,6 +94,8 @@ h2{
 
 
 
+
+/*Misc*/
 button{
     background-color: #3882F6;
     border-radius: 4px;
