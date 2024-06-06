@@ -7,7 +7,7 @@ body{
     align-items: stretch;
 }
 
-.header, .introduction, .info, .testimonial{
+.header, .introduction, .info, .testimonial, .call-to-action{
     display: flex;
     padding-bottom: 50px;
 }
@@ -109,12 +109,33 @@ h2{
     padding-left: 200px;
 }
 
+/*Call to Action*/
+.call-to-action{
+    justify-content: center;
+}
+
+.box{
+    height:100px;
+    background-color: #3882F6;
+    margin:60px;
+    padding: 12px 64px;
+    display: flex;
+    align-items:center;
+    gap:64px;
+    border-radius: 16px;
+    color:#E5E7EB;
+    
+}
+
+.box h4{
+    font-size: 18px;
+}
 
 /*Misc*/
 button{
     background-color: #3882F6;
     border-radius: 4px;
-    border: 0px;
+    border: 2px solid white;
     padding: 6px 24px;
     color: white;
     font-weight: bold;
